@@ -1,0 +1,2 @@
+# HAFTA-4
+ÖDEVLER-SQL

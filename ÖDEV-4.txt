@@ -1,0 +1,17 @@
+--SORU 1 CEVAP
+--SELECT DISTINCT replacement_cost FROM film;
+
+--SORU 2 CEVAP
+--SELECT COUNT (DISTINCT replacement_cost) FROM film;
+
+--SORU 3 CEVAP
+--SELECT COUNT(title) FROM film
+--WHERE title LIKE 'T%' AND rating = 'G';
+
+--SORU 4 CEVAP
+--SELECT COUNT(country) FROM country
+--WHERE country LIKE '_____';
+
+--SORU 5 CEVAP
+--SELECT COUNT(city) FROM city
+--WHERE city LIKE '%R' OR city LIKE '%r';

@@ -1,0 +1,15 @@
+--SORU 1 CEVAP
+--SELECT country FROM country
+--WHERE country LIKE 'A%' AND country ILIKE '%a';
+
+--SORU 2 CEVAP
+--SELECT country FROM country
+--WHERE country ILIKE '%_____n';
+
+--SORU 3 CEVAP
+--SELECT title FROM film
+--WHERE title LIKE '%t%t%t%t%' OR title LIKE '%T%T%T%T%';
+
+--SORU 4 CEVAP
+--SELECT * FROM film
+--WHERE title LIKE 'C%' AND length > 90 AND rental_rate = 2.99;

@@ -1,0 +1,26 @@
+--SORU 1 CEVAP
+--CREATE TABLE employee (
+--	id SERIAL PRIMARY KEY,
+--	name VARCHAR(50) NOT NULL,
+--	email VARCHAR(100),
+--	birthday DATE
+--);
+
+--SORU 2 CEVAP
+--insert into employee (name, email, birthday) values ('Jayne', 'jsands0@delicious.com', '1987-11-17');
+--insert into employee (name, email, birthday) values ('Jock', 'jsorbie1@epa.gov', '2003-12-30');
+--insert into employee (name, email, birthday) values ('Phip', null, '2010-07-13');
+--insert into employee (name, email, birthday) values ('Lorrayne', null, '1943-11-28');
+--insert into employee (name, email, birthday) values ('Donnie', 'dpoll4@pen.io', '1920-04-27');
+--...TOPLAM 50 ADET EKLENDİ
+
+--SORU 3 CEVAP
+--UPDATE employee
+--SET name = 'XXXX',
+--	email = 'YYYY',
+--	birthday = '1923-01-01'
+--WHERE id < 6;
+
+--SORU 4 CEVAP
+--DELETE FROM employee
+--WHERE id < 6;
